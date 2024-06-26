@@ -20,6 +20,9 @@ You can download the final prepared JSONL datasets ready for fine-tuning here:
 ## Fine-tuning
 All code for fine-tuning is in this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/FineTuning/GovernmentGPT_FineTune_Mistral_7b.ipynb)](notebook). You can easily run this on your local machine if it has a GPU, or on Google Colab.
 
+## LLM LoRA Adapter
+You can download the LoRa adapter for Mistral 7b v0.03 directly from here: https://stewh-publicdata.s3.eu-west-2.amazonaws.com/governmentgpt/2024-06-07/lora_adapter/mistral7b_v3_governmentgpt_lora_250k_2024-06-07.
+
 ## Inference
 You can run the fine-tuned model easily to generate your own debates using this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/Inference/GovernmentGPT_Inference.ipynb)](notebook). As with fine-tuning, you can easily run this on your local machine if it has a GPU, or on Google Colab.
 
