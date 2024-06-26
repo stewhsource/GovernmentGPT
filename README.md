@@ -18,10 +18,10 @@ You can download the final prepared JSONL datasets ready for fine-tuning here:
 - [250k instances (1.7gb compressed)](https://stewh-publicdata.s3.eu-west-2.amazonaws.com/governmentgpt/2024-06-07/datasets/HansardSequences_250k.big.txt.zip)
 
 ## Fine-tuning
-All code for fine-tuning is in this [link](notebook). You can easily run this on your local machine if it has a GPU, or on Google Colab.
+All code for fine-tuning is in this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/FineTuning/GovernmentGPT_FineTune_Mistral_7b.ipynb)](notebook). You can easily run this on your local machine if it has a GPU, or on Google Colab.
 
 ## Inference
-You can run the fine-tuned model easily to generate your own debates using this [link](notebook). As with fine-tuning, you can easily run this on your local machine if it has a GPU, or on Google Colab.
+You can run the fine-tuned model easily to generate your own debates using this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/Inference/GovernmentGPT_Inference.ipynb)](notebook). As with fine-tuning, you can easily run this on your local machine if it has a GPU, or on Google Colab.
 
 ## Acknowledgements
 This work has been made possible through the hard work of others - thank you.
