@@ -8,7 +8,7 @@ If you're looking to see an interesting end-to-end example of an LLM fine-tuning
 The key parts of the data processing pipeline are described in the following sections:
 
 ## Raw Data Extraction
-The raw Hansard transcript and speaker data needed to create the training datasets sits in a few places and needs to be processed and linked together, ready to prepare the final training dataset. We only used Hansard data from 1997 onwards because it was easiest to link to the speaker data. The code to do that is here: XXXXXXX.
+The raw Hansard transcript and speaker data needed to create the training datasets sits in a few places and needs to be processed and linked together, ready to prepare the final training dataset. We only used Hansard data from 1997 onwards because it was easiest to link to the speaker data. The code to do that is here: https://github.com/stewhsource/GovernmentGPT/tree/main/DatasetPreparation.
 
 ## Training Dataset Preparation
 The code samples 'sequences' of real British Commons Parlimentary Hansard debate transcripts. It attaches the speaker data (eg affiliation, location, additional roles such as committee memberships), and then structures it in a format ready for LLM fine-tuning. It strips dates, MP names and some numeric linking identifiers present in the text to try and avoid the LLM reproducing with bias. There is much more work that can be done to aid generalisability in this regard.
