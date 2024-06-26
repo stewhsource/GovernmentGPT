@@ -18,13 +18,13 @@ You can download the final prepared JSONL datasets ready for fine-tuning here:
 - [250k instances (1.7gb compressed)](https://stewh-publicdata.s3.eu-west-2.amazonaws.com/governmentgpt/2024-06-07/datasets/HansardSequences_250k.big.txt.zip)
 
 ## Fine-tuning
-All code for fine-tuning is in this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/FineTuning/GovernmentGPT_FineTune_Mistral_7b.ipynb)](notebook). You can easily run this on your local machine if it has a GPU, or on Google Colab.
+All code for fine-tuning is in this [notebook](https://github.com/stewhsource/GovernmentGPT/blob/main/FineTuning/GovernmentGPT_FineTune_Mistral_7b.ipynb). You can easily run this on your local machine if it has a GPU, or on Google Colab.
 
 ## LLM LoRA Adapter
 You can download the LoRa adapter for Mistral 7b v0.03 directly from here: https://stewh-publicdata.s3.eu-west-2.amazonaws.com/governmentgpt/2024-06-07/lora_adapter/mistral7b_v3_governmentgpt_lora_250k_2024-06-07.
 
 ## Inference
-You can run the fine-tuned model easily to generate your own debates using this [[link](https://github.com/stewhsource/GovernmentGPT/blob/main/Inference/GovernmentGPT_Inference.ipynb)](notebook). As with fine-tuning, you can easily run this on your local machine if it has a GPU, or on Google Colab.
+You can run the fine-tuned model easily to generate your own debates using this [notebook](https://github.com/stewhsource/GovernmentGPT/blob/main/Inference/GovernmentGPT_Inference.ipynb). As with fine-tuning, you can easily run this on your local machine if it has a GPU, or on Google Colab.
 
 ## Acknowledgements
 This work has been made possible through the hard work of others - thank you.
@@ -32,7 +32,7 @@ This work has been made possible through the hard work of others - thank you.
 
 *Parlimentary Hansard data*
 
-We make heavy use of [British Commons Parliamentary Hansard](https://hansard.parliament.uk) data. While this data is openly available to use, a number of individual and organisations have kindly worked hard to make this data more accessible for machine processing:
+We make extensive use of [British Commons Parliamentary Hansard](https://hansard.parliament.uk) data. While this data is openly available to use, a number of individual and organisations have kindly worked hard to make this data more accessible for machine processing:
 
 - [mySociety](https://www.mysociety.org) (eg their data in: https://github.com/mysociety/parlparse/blob/master/members/ministers-2010.json)
 - [mySociety TheyWorkForYou](https://www.theyworkforyou.com) - Data APIs and dumps at https://data.theyworkforyou.com
