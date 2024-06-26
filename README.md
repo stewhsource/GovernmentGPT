@@ -5,7 +5,17 @@ I wanted to see whether I could teach an LLM to do the job of elected British Me
 
 If you're looking to see an interesting end-to-end example of an LLM fine-tuning pipeline on real-world data, then look no further!
 
-The key parts of the data processing pipeline are described in the following sections:
+Inference: <br />
+<a target="_blank" href="https://colab.research.google.com/github/stewhsource/GovernmentGPT/blob/main/Inference/GovernmentGPT_Inference.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+Fine-tuning: <br />
+<a target="_blank" href="https://colab.research.google.com/github/stewhsource/GovernmentGPT/blob/main/FineTuning/GovernmentGPT_FineTune_Mistral_7b.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+The key parts of the data and model pipeline are described in the following sections.
 
 ## Raw Data Extraction
 The raw Hansard transcript and speaker data needed to create the training datasets sits in a few places and needs to be processed and linked together, ready to prepare the final training dataset. We only used Hansard data from 1997 onwards because it was easiest to link to the speaker data. The code to do that is here: https://github.com/stewhsource/GovernmentGPT/tree/main/DatasetPreparation.
