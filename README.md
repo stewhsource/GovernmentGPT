@@ -1,7 +1,7 @@
 # GovernmentGPT
 _An LLM fine-tuned on the British Commons Parliamentary Hansard to simulate the debate of political topics like members of parliament._
 
-I wanted to see whether I could teach an LLM to do the job of elected British Members of Parliament (MPs) and debate any issue like they do in the House of Commons. You can read my post about that here: xxxxx. This repo contains all code necessary to reproduce the work. 
+I wanted to see whether I could teach an LLM to do the job of elected British Members of Parliament (MPs) and debate any issue like they do in the House of Commons. You can read my post about this project here: https://www.linkedin.com/pulse/governmentgpt-teaching-ai-debate-politics-stewart-whiting-0o9uc/. This repo contains all code necessary to reproduce the work. 
 
 If you're looking to see an interesting end-to-end example of an LLM fine-tuning pipeline on real-world data, then look no further!
 
